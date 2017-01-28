@@ -1,9 +1,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/action_search"
-        android:title="Pencarian"
+        android:title="Cari Sesuatu"
         android:icon="@drawable/ic_action_search"
         app:actionViewClass="android.support.v7.widget.SearchView"
         app:showAsAction="ifRoom|collapseActionView"/>
+
+    <item android:id="@+id/action_login"
+        android:title="Login Admin"
+        android:icon="@drawable/ic_action_login"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_info"
+        android:title="Tentang Aplikasi"
+        android:icon="@drawable/ic_action_info"
+        app:showAsAction="never"/>
 </menu>
-<!-- From: file:/C:/Users/Student2/AndroidStudioProjects/Psychology-Dictioinary/app/src/main/res/menu/menu_activity_main.xml -->
+<!-- From: file:/C:/Users/H/AndroidStudioProjects/Psychology-Dictioinary/app/src/main/res/menu/menu_activity_main.xml -->

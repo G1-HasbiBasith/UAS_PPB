@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:text="Word"
         android:textColor="@color/primary_text"
+		android:textStyle="bold"
         android:textSize="26sp"
         android:layout_marginBottom="14dp"/>
     <TextView 
@@ -28,15 +29,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
 		android:layout_below="@id/txtMeaning">
-        <Button 
-		    android:id="@+id/btnEdit"
-		    android:layout_weight="0.5"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_gravity="center_horizontal"
-            android:textColor="@color/primary_text"
-		    android:text="Edit"/>
-        <Button 
+
+		<Button
 		    android:id="@+id/btnTutup"
 		    android:layout_weight="0.5"
 		    android:layout_width="wrap_content"
@@ -46,4 +40,4 @@
 		    android:text="Tutup"/>
     </LinearLayout>
 
-</RelativeLayout><!-- From: file:/C:/Users/Student2/AndroidStudioProjects/Psychology-Dictioinary/app/src/main/res/layout/dialog_arti.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/H/AndroidStudioProjects/Psychology-Dictioinary/app/src/main/res/layout/dialog_arti.xml -->
